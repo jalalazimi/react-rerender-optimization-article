@@ -1,0 +1,27 @@
+{
+  "name": "react-rerender-optimization-article",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-primitive": "parcel serve  ./primitive/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalalazimi/react-rerender-optimization-article.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalalazimi/react-rerender-optimization-article/issues"
+  },
+  "homepage": "https://github.com/jalalazimi/react-rerender-optimization-article#readme",
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "parcel": "next"
+  }
+}
