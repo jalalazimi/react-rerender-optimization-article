@@ -2,8 +2,12 @@
   "name": "react-rerender-optimization-article",
   "version": "1.0.0",
   "description": "",
+  "main": "src/index.js",
   "scripts": {
-    "start-primitive": "parcel serve  ./primitive/index.html"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -15,13 +19,16 @@
   "bugs": {
     "url": "https://github.com/jalalazimi/react-rerender-optimization-article/issues"
   },
-  "homepage": "https://github.com/jalalazimi/react-rerender-optimization-article#readme",
   "dependencies": {
     "clsx": "^1.1.1",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.14.0",
+    "react-scripts": "^3.4.3"
   },
-  "devDependencies": {
-    "parcel": "next"
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
