@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jalalazimi/react-rerender-optimization-article#readme",
   "dependencies": {
+    "clsx": "^1.1.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   },
